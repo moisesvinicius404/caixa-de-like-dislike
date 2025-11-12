@@ -1,16 +1,24 @@
-# React + Vite
+# 👍👎 Caixa de Like & Dislike
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples, criado como parte da minha jornada de aprendizado em **React**. O objetivo principal foi consolidar o conhecimento sobre o **gerenciamento de estado** e a manipulação de eventos em componentes funcionais.
 
-Currently, two official plugins are available:
+O componente exibe uma caixa de votação simples onde o usuário pode dar "Like" (Curtir) ou "Dislike" (Não Curtir), com a contagem atualizada em tempo real.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Destaques do Aprendizado
 
-## React Compiler
+Neste projeto, utilizei e pratiquei os seguintes conceitos:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React Hooks:** Utilização essencial do `useState` para criar e gerenciar o estado dos contadores de `like` e `dislike`.
+* **Manipulação de Eventos:** Implementação das funções `eventLike` e `eventDislike` para atualizar o estado em resposta à interação do usuário (`onClick`).
+* **Componentes Funcionais:** Estrutura básica de um componente moderno em React.
+* **Estilização:** Uso do **Tailwind CSS** para estilizar o componente de forma rápida e responsiva, focando em classes utilitárias.
+* **Integração de Bibliotecas:** Uso do `react-icons` para integrar ícones SVG de alta qualidade ao projeto.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologias Utilizadas
+
+
+ **React** | Biblioteca JavaScript para construção da interface de usuário. 
+ **Tailwind CSS** | Framework CSS utility-first para estilização rápida. 
+ **react-icons** | Biblioteca de ícones (neste caso, `FiThumbsUp` e `FiThumbsDown`). 
+
